@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>팀 커뮤니티 게시판</title>
+<link rel="stylesheet" type="text/css" href="joinPage.css">
+
+</head>
+<body>
+
+	<div class="container">
+		<header>
+
+			<div id="head">
+				<h1>회원가입</h1>
+			</div>
+
+		</header>
+		
+		<div id="form">
+			<form action="join.jsp" method="post" class="login">
+				<h1>Welcome Join</h1>
+				아이디(닉네임) <br /> <input type="text" name="id" class="login-input">
+				<br /> 비밀번호 <br /> <input type="password" name="pw"
+					class="login-input"> <br /> 비밀번호 확인 <br /> <input
+					type="password" name="cpw" class="login-input">
+				<br /> 이메일 <br /> <input type="email" name="email"
+					class="login-input"> <br /> <input type="submit"
+					value="회원가입" class="login-submit">
+				<p class="login-help">
+					<a href="loginPage.html">비밀번호 찾기</a>
+				</p>
+				<p class="join-help">
+					<a href="loginPage.html">로그인</a>
+				</p>
+			</form>
+		</div>
+</body>
+</html>
